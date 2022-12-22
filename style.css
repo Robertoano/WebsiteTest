@@ -1,0 +1,97 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+nav a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.nav {
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+nav{
+    padding: 5px;
+    display: flex;
+    justify-content:center;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+.bannerImage{
+    width: 100%;
+    background-image: url(https://wallpapercave.com/wp/wp8172556.jpg);
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px;
+
+}
+
+.bannerImage p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 150px;
+    margin: 0px;
+}
+
+h1, h2, p{
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.absatz{
+    width: 700px;
+    background-color: rgb(255, 232, 217);
+}
+
+.inhalt {
+    display: flex;
+    justify-content: center;
+}
+
+#hauptseite{
+    width: 584px;
+}
+
+.spacer {
+    width: 100%;
+    height: 10px;
+}
+
+.spacer_2 {
+    width: 100%;
+    height: 70px;
+}
+
+.spacer_3 {
+    width: 100%;
+    height: 70px;
+}
+.cat{
+    width: 500px;
+    height: 300px;
+    
+    background-color: rgb(0, 0, 0);
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/RedCat_8727.jpg/1200px-RedCat_8727.jpg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 5%;
+    margin: 10px;
+    
+}
